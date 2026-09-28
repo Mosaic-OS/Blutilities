@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blutilities</string>
+
+    <string name="tile_bluetooth_off">Bluetooth turned off</string>
+    <string name="tile_no_device">No audio device</string>
+    <string name="tile_connected">Connected</string>
+
+    <string name="title_bt_quality">%1$s</string>
+    <string name="title_bt_quality_default">Bluetooth playback quality</string>
+    <string name="close">Close</string>
+
+    <string name="codec_system_selection">System Selection (Optimal)</string>
+    <string name="codec_system_selection_sub">System automatically selects</string>
+    <string name="header_codec">Codec</string>
+    <string name="header_ldac_quality">LDAC Quality</string>
+    <string name="no_device_connected">No device connected</string>
+
+    <string name="ldac_quality_best">Optimised for Audio Quality</string>
+    <string name="ldac_quality_balanced">Balanced Audio &amp; Connection Quality</string>
+    <string name="ldac_quality_connection">Optimised for Connection Quality</string>
+    <string name="ldac_quality_adaptive">Best Effort (Adaptive Bitrate)</string>
+    <string name="ldac_quality_adaptive_sub">Automatic bitrate</string>
+
+    <string name="codec_applied">%1$s applied</string>
+    <string name="codec_apply_failed">Could not change the codec</string>
+    <string name="bt_permission_denied">Bluetooth permission required</string>
+    <string name="bt_not_supported">Bluetooth is not supported on this device</string>
+    <string name="selected">Selected</string>
+
+    <string name="bt_loading">Reading Bluetooth status…</string>
+    <string name="bt_service_unavailable">Bluetooth is not responding. Close and reopen the picker to try again.</string>
+    <string name="bt_multiple_devices">The active audio device could not be identified. Disconnect the other audio devices and try again.</string>
+    <string name="picker_launch_failed">Could not open Blutilities. Unlock the phone and tap the tile again.</string>
+    <string name="bt_permission_help">Allow Nearby devices in the Blutilities app permissions, then reopen the tile.</string>
+    <string name="bt_waiting_for_consent">Waiting for device access…</string>
+    <string name="cdm_unavailable">This phone does not support the companion device setup needed for codec access.</string>
+    <string name="cdm_failed">Could not request device access. Keep the audio device connected and nearby, then reopen the tile to try again.</string>
+    <string name="cdm_denied">Device access was not granted. Reopen the tile if you want to try again.</string>
+    <string name="codec_api_unavailable">This Android version does not allow Blutilities to access the codec controls.</string>
+    <string name="codec_access_denied">Android refused codec access for this device. Check Nearby devices permission and companion device access in Settings.</string>
+    <string name="codec_read_failed">Codec information is unavailable. Keep the audio device connected, then reopen the tile.</string>
+    <string name="codec_verifying">Checking the codec change…</string>
+    <string name="codec_not_confirmed">Android did not confirm the requested codec. Reopen the tile to check the current setting.</string>
+    <string name="codec_device_changed">The active audio device changed. Reopen the tile before selecting a codec.</string>
+    <string name="codec_system_unavailable">Automatic codec selection cannot be restored reliably here. Use Bluetooth audio codec in Developer options.</string>
+    <string name="codec_unknown">Codec #%1$d</string>
+</resources>

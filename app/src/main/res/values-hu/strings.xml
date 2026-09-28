@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_bluetooth_off">Bluetooth kikapcsolva</string>
+    <string name="tile_no_device">Csatlakozzon audioeszközhöz</string>
+    <string name="tile_connected">Csatlakoztatva</string>
+    <string name="title_bt_quality">%1$s</string>
+    <string name="title_bt_quality_default">Bluetooth lejátszási minőség</string>
+    <string name="close">Bezárás</string>
+    <string name="codec_system_selection">Rendszer választása (Optimális)</string>
+    <string name="codec_system_selection_sub">A rendszer automatikusan választ</string>
+    <string name="header_codec">Kodek</string>
+    <string name="header_ldac_quality">LDAC minőség</string>
+    <string name="no_device_connected">Nincs csatlakoztatott eszköz</string>
+    <string name="ldac_quality_best">Optimális hangminőség</string>
+    <string name="ldac_quality_balanced">Kiegyensúlyozott hang- és kapcsolatminőség</string>
+    <string name="ldac_quality_connection">Optimális kapcsolatminőség</string>
+    <string name="ldac_quality_adaptive">A legjobb eredmény (adaptív bitsebesség)</string>
+    <string name="ldac_quality_adaptive_sub">Automatikus bitráta</string>
+    <string name="codec_applied">%1$s beállítva</string>
+    <string name="codec_apply_failed">A kodek nem módosítható</string>
+    <string name="bt_permission_denied">Bluetooth engedély szükséges</string>
+    <string name="bt_not_supported">Bluetooth nem támogatott ezen az eszközön</string>
+    <string name="selected">Kiválasztva</string>
+
+    <string name="bt_loading">Bluetooth-állapot beolvasása…</string>
+    <string name="bt_service_unavailable">A Bluetooth nem válaszol. Zárja be, majd nyissa meg újra a választót.</string>
+    <string name="bt_multiple_devices">Az aktív audioeszköz nem azonosítható. Válassza le a többi audioeszközt, majd próbálja újra.</string>
+    <string name="picker_launch_failed">A Blutilities nem nyitható meg. Oldja fel a telefon zárolását, majd koppintson újra a csempére.</string>
+    <string name="bt_permission_help">Engedélyezze a Közeli eszközök hozzáférését a Blutilities alkalmazásengedélyei között, majd nyissa meg újra a csempét.</string>
+    <string name="bt_waiting_for_consent">Várakozás az eszközhozzáférés engedélyezésére…</string>
+    <string name="cdm_unavailable">Ez a telefon nem támogatja a kodekek eléréséhez szükséges társeszköz-beállítást.</string>
+    <string name="cdm_failed">Az eszközhozzáférés nem kérhető. Tartsa az audioeszközt csatlakoztatva és a közelben, majd nyissa meg újra a csempét.</string>
+    <string name="cdm_denied">Az eszközhozzáférést nem engedélyezte. Az újrapróbálkozáshoz nyissa meg újra a csempét.</string>
+    <string name="codec_api_unavailable">Ez az Android-verzió nem engedélyezi a Blutilities számára a kodekbeállítások elérését.</string>
+    <string name="codec_access_denied">Az Android megtagadta az eszköz kodekbeállításainak elérését. Ellenőrizze a Közeli eszközök engedélyét és a társeszköz-hozzáférést a Beállításokban.</string>
+    <string name="codec_read_failed">A kodekadatok nem érhetők el. Tartsa az audioeszközt csatlakoztatva, majd nyissa meg újra a csempét.</string>
+    <string name="codec_verifying">A kodekváltás ellenőrzése…</string>
+    <string name="codec_not_confirmed">Az Android nem erősítette meg a kért kodeket. Az aktuális beállítás ellenőrzéséhez nyissa meg újra a csempét.</string>
+    <string name="codec_device_changed">Az aktív audioeszköz megváltozott. Kodekválasztás előtt nyissa meg újra a csempét.</string>
+    <string name="codec_system_unavailable">Az automatikus kodekválasztás itt nem állítható vissza megbízhatóan. Használja a Fejlesztői beállítások Bluetooth-audiokodek beállítását.</string>
+    <string name="codec_unknown">Kodek #%1$d</string>
+</resources>

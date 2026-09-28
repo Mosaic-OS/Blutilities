@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Caps the dialog width so it does not stretch edge to edge in landscape or on tablets. -->
+    <style name="Widget.Blutilities.DialogCard" parent="Widget.Material3.CardView.Filled">
+        <item name="android:layout_width">560dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">24dp</item>
+    </style>
+</resources>
